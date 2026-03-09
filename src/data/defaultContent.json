@@ -1,0 +1,40 @@
+{
+ "site": {
+  "name": "HorizonX",
+  "slogan": "Fly Beyond the Horizon"
+ },
+
+ "stats":[
+  {"label":"Pilots","value":120},
+  {"label":"Routes","value":85},
+  {"label":"Fleet","value":24},
+  {"label":"Flight Hours","value":54000}
+ ],
+
+ "fleet":[
+  {
+   "name":"Boeing 787",
+   "range":"7635 nm",
+   "capacity":"242",
+   "image":"/fleet/787.jpg"
+  }
+ ],
+
+ "routes":[
+  {
+   "from":"EGLL",
+   "to":"KJFK",
+   "distance":"3450 nm",
+   "aircraft":"B787"
+  }
+ ],
+
+ "staff":[
+  {
+   "name":"John Smith",
+   "role":"CEO",
+   "avatar":"/staff/john.jpg",
+   "bio":"Founder of HorizonX"
+  }
+ ]
+}
